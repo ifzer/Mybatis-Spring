@@ -1,16 +1,18 @@
-package com.isea533.mybatis.service;
+package com.ifzer.mybatis.service;
 
 import com.github.pagehelper.PageHelper;
-import com.isea533.mybatis.mapper.Country2Mapper;
-import com.isea533.mybatis.mapper.CountryMapper;
-import com.isea533.mybatis.model.Country;
-import com.isea533.mybatis.model.Country2;
+import com.ifzer.mybatis.mapper.Country2Mapper;
+import com.ifzer.mybatis.mapper.CountryMapper;
+import com.ifzer.mybatis.model.Country;
+import com.ifzer.mybatis.model.Country2;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.sql.DataSource;
+
 import java.util.List;
 
 /**

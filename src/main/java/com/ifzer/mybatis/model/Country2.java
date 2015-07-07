@@ -1,4 +1,4 @@
-package com.isea533.mybatis.model;
+package com.ifzer.mybatis.model;
 
 import javax.persistence.Id;
 import javax.persistence.Table;

@@ -1,7 +1,8 @@
-package com.isea533.mybatis.mapper;
+package com.ifzer.mybatis.mapper;
 
 import tk.mybatis.mapper.common.Mapper;
-import com.isea533.mybatis.model.UserLogin;
+
+import com.ifzer.mybatis.model.UserLogin;
 
 public interface UserLoginMapper extends Mapper<UserLogin> {
 }

@@ -1,8 +1,9 @@
-package com.isea533.mybatis.controller.demo;
+package com.ifzer.mybatis.controller.demo;
 
-import com.isea533.mybatis.model.Country;
-import com.isea533.mybatis.model.Country2;
-import com.isea533.mybatis.service.DemoService;
+import com.ifzer.mybatis.model.Country;
+import com.ifzer.mybatis.model.Country2;
+import com.ifzer.mybatis.service.DemoService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;

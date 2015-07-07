@@ -1,6 +1,7 @@
-package com.isea533.mybatis.test;
+package com.ifzer.mybatis.test;
 
-import com.isea533.mybatis.mapper.UserInfoMapper;
+import com.ifzer.mybatis.mapper.UserInfoMapper;
+
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
