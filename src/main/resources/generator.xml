@@ -34,6 +34,6 @@
 		<javaClientGenerator type="XMLMAPPER"
 			targetPackage="com.ifzer.mybatis.mapper" targetProject="${targetProject}" />
 
-		<table schema="mybatis_gen_db" tableName="COUNTRY" domainObjectName="Country2" />
+		<table schema="mybatis_gen_db" tableName="country" domainObjectName="Country" />
 	</context>
 </generatorConfiguration>

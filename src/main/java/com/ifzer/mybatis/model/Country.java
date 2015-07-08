@@ -1,16 +1,15 @@
 package com.ifzer.mybatis.model;
 
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-/**
- * Description: Country
- * Author: liuzh
- * Update: liuzh(2014-06-06 13:38)
- */
+@Table(name="country")
 public class Country {
-    @Id
+	@Id
     private Integer id;
+
     private String countryname;
+
     private String countrycode;
 
     public Integer getId() {
